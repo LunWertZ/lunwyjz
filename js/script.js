@@ -30,3 +30,15 @@ d4 = Math.floor(number/1000) % 10
 console.log(d1,d2,d3,d4)
 }
 
+{
+ let x, y, max;
+ x = parseFloat(prompt("1"))
+ y = parseFloat(prompt("2"))
+ if (x > y ) {
+    max = x
+ }
+ else {
+    max = y
+ }
+ alert("max = " + max)
+}
